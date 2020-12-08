@@ -1,0 +1,94 @@
+body { 
+    padding-top: 50px;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+h4, h5, h6 {
+    font-weight: bold;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.page {
+    height: 21em;
+    align-content: center;
+}
+
+#header {
+    margin-bottom: 1.5em;
+}
+
+#craxcelHeader {
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+}
+
+#fileUploadDiv {
+    height: 16em;    
+}
+
+#fileUploadButton {
+    height: 100%;
+    vertical-align: middle;
+}
+
+#fileLabel {
+    padding-top: 4.25em;
+    height: 100%;
+}
+
+#fileLabel:after {
+    content: none;
+}
+
+#fileRejected {
+    color: red;
+}
+
+#unlockButton {
+    white-space: normal;
+    height: 4em;
+    border: none;
+}
+
+svg {
+    padding-bottom: 1em;
+    height: 6em;
+    width: 6em;
+}
+
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+}
+
+.dot-1 {
+    animation: blink 1.5s infinite;
+}
+
+.dot-2 {
+    animation: blink 1.5s infinite .25s;
+}
+
+.dot-3 {
+    animation: blink 1.5s infinite .5s;
+}
+
+.excel {
+    color: #1d6f42
+}
+
+.bg-excel {
+    background-color: #1d6f42;
+    color: white;
+}
+
+.word {
+    color: #2b578f;
+}
+
+.powerpoint {
+    color: #D04423;
+}
