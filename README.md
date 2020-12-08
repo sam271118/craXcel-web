@@ -1,8 +1,5 @@
 # [www.craXcel.com](https://www.craxcel.com)
-
 Web application to unlock Microsoft Office password protected files.
-
----
 
 ![craxcel-web](https://user-images.githubusercontent.com/50495755/101543521-42016080-399c-11eb-91ed-93a1f3c7f582.png)
 
@@ -12,11 +9,11 @@ Web application to unlock Microsoft Office password protected files.
 
 craXcel ("crack-cel") is a tool that makes removing various password protections from Microsoft Office files seemless. It works by directly amending the underlying XML files that make up modern Microsoft Office files.
 
-Please note that craXcel cannot unlock encrypted files.
-
 ---
 
 # Supported applications
+
+Currently, craXcel supports the following applications and file types:
 
 - Microsoft Excel
   - .xlsx
@@ -28,7 +25,13 @@ Please note that craXcel cannot unlock encrypted files.
   - .pptx
   - .pptm
 
-Others may work, but have not been tested.
+Currently, the maximum supported file size is 10MB. For unlimited file size support, craXcel is also available to download, please visit the below GitHub repositories for more information:
+
+- [craxcel-cli](https://github.com/petemc89/craXcel-cli)
+- [craxcel-desktop](https://github.com/petemc89/craXcel-desktop)
+
+Please note that craXcel cannot unlock encrypted files (when a password to read the document).
+
 
 ## Important note on unlocking the VBA project of macro files
 
