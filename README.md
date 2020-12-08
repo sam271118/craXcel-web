@@ -1,6 +1,5 @@
-[www.craXcel.com](https://www.craxcel.com)
+# [www.craXcel.com](https://www.craxcel.com)
 
-# craXcel-web
 Web application to unlock Microsoft Office password protected files.
 
 ---
