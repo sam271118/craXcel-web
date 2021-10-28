@@ -1,3 +1,7 @@
+NOTE: Website is now offline permanently. Thank you for all your uses :)
+
+You can checkout the cli version of craXcel at https://github.com/petemc89/craXcel-cli
+
 # [www.craXcel.com](https://www.craxcel.com)
 Web application to unlock Microsoft Office password protected files.
 
